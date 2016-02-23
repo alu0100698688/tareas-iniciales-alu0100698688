@@ -59,7 +59,7 @@ Una vez instalado se procede a la configuración:
 
 Es un IDE de desarrollo online, para su uso será necesario crear una cuenta en la página oficial o acceder con las credenciales de GitHub si ya se dispone de una cuenta. Una vez registrados podremos crear proyectos de varias tecnologías como puede ser NodeJS, HTML5, C++, Ruby On Rails, etc.
 
-![](images/cloud1.png)
+![](images/cloud2.png)
 
 Se puede acceder al entorno pinchando el siguiente enlace: [Cloud9](https://c9.io/)
 

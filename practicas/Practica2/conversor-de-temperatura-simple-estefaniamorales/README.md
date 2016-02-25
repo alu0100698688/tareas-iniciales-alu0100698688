@@ -15,3 +15,5 @@
 * [Web de las prácticas](http://alu0100698688.github.io/web/)
 
 ### Enlace a la práctica
+
+* [Web de las práctica 2](http://alu0100698688.github.io/web/practicas/Practica2/conversor-de-temperatura-simple-estefaniamorales/index.html)

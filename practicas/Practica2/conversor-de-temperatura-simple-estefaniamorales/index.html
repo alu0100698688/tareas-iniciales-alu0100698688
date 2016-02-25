@@ -5,15 +5,86 @@
      <title>JavaScript Temperature Converter</title>
      <link href="normalize.css" rel="stylesheet" type="text/css">
      <link href="global.css" rel="stylesheet" type="text/css">
+     <style type="text/css">
+     body {
+    		background-image: url("images/fondo.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
 
+     }
+     #block4 {
+    background:url("images/textura2.jpg");
+    border:3px solid #542437;
+    font-family:Georgia,"Times New Roman",Times,serif;
+        margin:20px 0px;
+    padding:20px;
+    z-index:5;
+    background-size: cover;
+      }
+      #block4 h1 {
+          font-size:190%;
+          letter-spacing:0px;
+          line-height:42px;
+          margin:0 0 10px;
+          text-align:center;
+          text-transform:uppercase;
+      }
+
+      #block4 h1 a{
+          color:#542437
+      }
+
+      #block4 h5 a{
+          color:#542437
+      }
+
+      #block4 h5 {
+          border-bottom:1px solid #4C4C4C;
+          border-top:1px solid #4C4C4C;
+          color:#6A6969;
+          font-size:13px;
+          font-weight:100;
+          letter-spacing:3px;
+          line-height:21px;
+          padding:5px 0;
+          text-transform:uppercase;
+      }
+      #block4 .title-wrap{
+          background:url("images/textura3.jpg");
+          padding:10px;
+          border:1px dashed #542437;
+          background-size: cover;
+      }
+      #original {
+        border-width: 10px;
+        position: 30cm 30cm;
+    		border-style: outset;
+    		border-color: red;
+      }
+      th {
+        font: normal normal 18px quicksand;  /*fuente*/
+        color: black;  /*color de la fuente*/
+        letter-spacing: 2px; /*separación entre las letras*/
+        text-align: center; /*alineación del texto*/
+        text-transform: uppercase; /*texto se transforma en mayúsculas*/
+      }
+
+     </style>
      <script type="text/javascript" src="temperature.js"></script>
   </head>
   <body>
-    <h1>Temperature Converter</h1>
+    <div id="block4">
+    <div class="title-wrap">
+    <h1><a href="#" >Temperature Converter</a></h1>
+    <h5><span>26 de Febrero de 2016</span> | Práctica 2 </h5>
+    </div>
+</div>
+    <br><br>
     <table>
       <tr>
         <th>Enter  Temperature (examples: 32F, 45C, -2.5f):</th>
-        <td><input id="original" autofocus onchange="calculate();" placeholder="32F" size="50"></td>
+        <td><input id="original" autofocus onchange="calculate();" placeholder="32F" size="30"></td>
       </tr>
       <tr>
         <th>Converted Temperature:</th>

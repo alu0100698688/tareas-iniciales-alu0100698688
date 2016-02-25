@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-		<title>Práctica 0: Express</title>
+		<title>Práctica 1: Markdown</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -18,7 +18,21 @@
 			<link rel="stylesheet" href="css/style-wide.css" />
 
 		</noscript>
+		<style type="text/css">
 
+			table {
+		    border: 1px solid black;
+			}
+				tr, td {
+			padding: 15px;
+			text-align: left;
+		}
+		th {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+
+		</style>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body>
@@ -34,7 +48,7 @@
 						<nav id="nav">
 							<ul>
 								<li class="active"><a href="../../index.html">Página principal</a></li>
-								<li class="active"><a href="practica0.html">Más herramientas</a></li>
+								<li class="active"><a href="practica1.html">Más herramientas</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -48,16 +62,36 @@
 							<div id="content" class="8u skel-cell-important">
 								<section>
 									<header class="major">
-										<h2>Express</h2>
+										<h2>Markdown</h2>
 										<span class="byline"></span>
 									</header>
-									<p>Express es una infraestructura de aplicaciones web Node.js mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles.</p>
-									<h3>Instalación</h3>
-								  <p>Para instalarlo hay que abrir la consola de Node.js y ejecutar el siguiente comando:</p>
-									<IMG SRC="images/express1.png" alt="Express">
+									<p>Markdown es un lenguaje de marcado ligero parecido al que se emplea en muchas wikis y basado originalmente en convenciones existentes en el marcado de los los correos electronicos. Emplea texto plano, procurando que sea legible pero consiguiendo que se convierta en XHTML correctamente formateado.</p>
 									<br><br>
-									<p>Resultado tras la ejecución:</p>
-									<IMG SRC="images/express2.png" alt="Express paquetes">
+									<h3>Sintaxis</h3>
+									<br>
+									<table>
+										<tr style="border: 1px; solid: black">
+											<th align="center"><i>Código</i></th>
+											<th align="center"><i>Resultado</i></th>
+										</tr>
+										<tr>
+											<td>*Esto es cursiva* </td>
+											<td><i>Esto es cursiva</i></td>
+										</tr>
+										<tr>
+											<td>***Esto es negrita y cursiva*** </td>
+											<td><strong><i>Esto es negrita y cursiva</i></strong></td>
+										</tr>
+										<tr>
+											<td>**Esto es negrita**</td>
+											<td><strong>Esto es negrita</strong></td>
+										</tr>
+
+									</table>
+
+									<br><br>
+									<h3>Más sintaxis en...</h3>
+									<p><a href="http://joedicastro.com/pages/markdown.html" target="_blank">Sintaxis Markdown </a></p>
 								</section>
 							</div>
 

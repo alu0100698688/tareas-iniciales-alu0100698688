@@ -17,3 +17,7 @@
 ### Enlace a la práctica
 
 * [Web de las práctica 2](http://alu0100698688.github.io/web/practicas/Practica2/conversor-de-temperatura-simple-estefaniamorales/index.html)
+
+### Enlace a la asignatura al campus virtual
+
+* [Campus de la asignatura](https://campusvirtual.ull.es/1516/course/view.php?id=178)

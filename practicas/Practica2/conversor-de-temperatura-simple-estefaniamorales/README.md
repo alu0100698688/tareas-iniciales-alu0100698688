@@ -20,4 +20,4 @@
 
 ### Enlace a la asignatura al campus virtual
 
-* [Campus de la asignatura](https://campusvirtual.ull.es/1516/course/view.php?id=178)
+* [Campus del curso](https://campusvirtual.ull.es/1516/course/view.php?id=178)
